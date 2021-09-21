@@ -54,7 +54,7 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
         stage{
-            debuggable true
+            debuggable false
             minifyEnabled false
             applicationIdSuffix ".stage"
             versionNameSuffix ".$build"
