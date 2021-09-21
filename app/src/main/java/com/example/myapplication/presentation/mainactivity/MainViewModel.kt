@@ -7,13 +7,13 @@ import com.example.myapplication.data.repository.MainRepository
 import retrofit2.Call
 import retrofit2.Response
 
-class MainViewModel constructor(private val repository: MainRepository)  : ViewModel() {
+class MainViewModel constructor(private val repository: MainRepository) : ViewModel() {
     val movieList = MutableLiveData<List<Movie>>()
     val errorMessage = MutableLiveData<String>()
 
     fun getAllMovies() {
         val response = repository.getAllMovies()
-        response.enqueue(object : retrofit2.Callback<List<Movie>>{
+        response.enqueue(object : retrofit2.Callback<List<Movie>> {
             override fun onResponse(call: Call<List<Movie>>, response: Response<List<Movie>>) {
                 movieList.postValue(response.body())
             }

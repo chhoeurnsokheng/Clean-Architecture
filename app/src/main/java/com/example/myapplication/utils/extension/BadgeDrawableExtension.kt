@@ -13,7 +13,6 @@ import androidx.core.content.ContextCompat
 import com.example.myapplication.R
 import com.google.android.material.badge.BadgeDrawable
 
-
 fun BadgeDrawable.applyDefaultConfiguration(context: Context) {
     backgroundColor = ContextCompat.getColor(context, R.color.black)
     badgeGravity = BadgeDrawable.TOP_END

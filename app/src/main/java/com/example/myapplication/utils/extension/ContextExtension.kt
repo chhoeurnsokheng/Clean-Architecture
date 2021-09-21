@@ -9,7 +9,6 @@
 package com.example.myapplication.utils.extension
 
 import android.content.Context
-import android.icu.number.NumberFormatter
 import android.view.LayoutInflater
 import androidx.annotation.ColorInt
 import androidx.annotation.ColorRes
@@ -17,7 +16,6 @@ import androidx.annotation.PluralsRes
 import androidx.annotation.StringRes
 import androidx.core.content.ContextCompat
 import com.example.myapplication.R
-import kotlin.math.ceil
 
 inline val Context.layoutInflater: LayoutInflater
     get() = getSystemService(Context.LAYOUT_INFLATER_SERVICE) as LayoutInflater
@@ -28,11 +26,11 @@ val Context.normalSpace: Int
 val Context.smallSpace: Int
     get() = resources.getDimensionPixelSize(R.dimen.small_space)
 
-//fun Context.getQuantityStringZero(
+// fun Context.getQuantityStringZero(
 //    @PluralsRes pluralResId: Int,
 //    @StringRes zeroResId: Int,
 //    pluralValue: Double
-//): String {
+// ): String {
 //    val value = ceil(pluralValue).toInt()
 //    return if (value == 0) {
 //        getString(zeroResId)
@@ -43,7 +41,7 @@ val Context.smallSpace: Int
 //            NumberFormatter.formatNumber(pluralValue, 0)
 //        )
 //    }
-//}
+// }
 
 fun Context.getQuantityStringZero(
     @PluralsRes pluralResId: Int,

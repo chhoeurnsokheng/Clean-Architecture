@@ -13,7 +13,6 @@ import android.text.Html
 import android.widget.TextView
 import com.example.myapplication.R
 
-
 @Suppress("DEPRECATION")
 fun TextView.loadHtml(htmlData: String) {
     text = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {

@@ -10,11 +10,9 @@ package com.example.myapplication.utils.extension
 
 import androidx.activity.ComponentActivity
 import androidx.annotation.MainThread
-import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelLazy
 import androidx.lifecycle.ViewModelProvider
-import androidx.lifecycle.ViewModelStoreOwner
 import kotlin.reflect.KClass
 
 @MainThread
@@ -29,9 +27,9 @@ fun <VM : ViewModel> ComponentActivity.viewModels(
     return ViewModelLazy(clazz, { viewModelStore }, factoryPromise)
 }
 
-//@MainThread
-//fun <VM : ViewModel> Fragment.viewModels(
+// @MainThread
+// fun <VM : ViewModel> Fragment.viewModels(
 //    clazz: KClass<VM>,
 //    ownerProducer: () -> ViewModelStoreOwner = { this },
 //    factoryProducer: (() -> ViewModelProvider.Factory)? = null
-//) = createViewModelLazy(clazz, { ownerProducer().viewModelStore }, factoryProducer)
+// ) = createViewModelLazy(clazz, { ownerProducer().viewModelStore }, factoryProducer)
