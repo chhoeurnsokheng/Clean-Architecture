@@ -10,6 +10,7 @@ import com.example.myapplication.data.repository.MainRepository
 import com.example.myapplication.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
+
     private val TAG = "ManiActivity"
     private lateinit var binding: ActivityMainBinding
     private val retrofitService = RetrofitService.getInstance()
