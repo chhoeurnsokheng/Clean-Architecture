@@ -6,9 +6,10 @@
  * Copyright (c) 2020 ICE Electronics. All rights reserved.
  */
 
-package com.icekh.ugamer.shared.lce.view
+package com.example.myapplication.shared.view.view
 
-import com.icekh.ugamer.shared.ErrorType
+import com.example.myapplication.shared.ErrorType
+
 
 sealed class LceState {
     class LoadingState(val isTranslucent: Boolean = false) : LceState()

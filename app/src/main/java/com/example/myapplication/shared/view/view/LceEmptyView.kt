@@ -3,6 +3,7 @@ package com.icekh.ugamer.shared.lce.view
 import android.content.Context
 import android.util.AttributeSet
 import android.widget.FrameLayout
+import com.example.myapplication.shared.view.view.LceState
 
 abstract class LceEmptyView @JvmOverloads constructor(
     context: Context,

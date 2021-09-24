@@ -8,7 +8,6 @@
 
 package com.example.myapplication.domain.Interactors.common
 
-
 import com.icekh.ugamer.utils.schedulers.SchedulersProvider
 import io.reactivex.rxjava3.core.Completable
 

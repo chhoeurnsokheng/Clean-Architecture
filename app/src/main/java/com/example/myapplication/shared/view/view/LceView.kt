@@ -8,6 +8,8 @@
 
 package com.icekh.ugamer.shared.lce.view
 
+import com.example.myapplication.shared.view.view.LceState
+
 interface LceView {
     fun changeState(state: LceState)
 }

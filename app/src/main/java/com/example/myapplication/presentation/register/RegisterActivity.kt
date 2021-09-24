@@ -1,8 +1,7 @@
 package com.example.myapplication.presentation.register
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.telephony.CarrierConfigManager
+import androidx.appcompat.app.AppCompatActivity
 import com.example.myapplication.R
 import javax.inject.Inject
 

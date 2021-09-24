@@ -11,7 +11,6 @@ package com.icekh.ugamer.shared.skeleton
 import com.ethanhua.skeleton.SkeletonScreen
 import com.ethanhua.skeleton.ViewSkeletonScreen
 
-
 class StatefulViewSkeletonScreen(
     private val builder: ViewSkeletonScreen.Builder
 ) : SkeletonScreen {

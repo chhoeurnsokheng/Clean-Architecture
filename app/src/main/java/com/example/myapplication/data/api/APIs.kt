@@ -5,5 +5,5 @@ import retrofit2.http.GET
 
 interface APIs {
     @GET("api/users")
-    fun sampleGet():JsonObject
+    fun sampleGet(): JsonObject
 }

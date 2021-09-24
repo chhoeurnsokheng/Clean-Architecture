@@ -1,10 +1,8 @@
 package com.example.myapplication.di
 
 import android.content.Context
-import android.provider.SyncStateContract
 import com.example.myapplication.data.api.APIs
 import com.example.myapplication.utils.Constants
-import com.example.myapplication.utils.Constants.BASE_URL
 import com.google.gson.GsonBuilder
 import dagger.Module
 import dagger.Provides
@@ -19,7 +17,6 @@ import retrofit2.converter.gson.GsonConverterFactory
 import java.io.File
 import java.util.concurrent.TimeUnit
 import javax.inject.Singleton
-
 
 @Module
 @Suppress("unused")
@@ -62,17 +59,15 @@ class NetworkModule {
         return okHttpClientBuilder.build()
     }
 
-
     @Provides
     @Singleton
     fun provideHeaderInterceptor(): Interceptor {
         return Interceptor {
             val requestBuilder = it.request().newBuilder()
-            //hear you can add all headers you want by calling 'requestBuilder.addHeader(name ,  value)'
+            // hear you can add all headers you want by calling 'requestBuilder.addHeader(name ,  value)'
             it.proceed(requestBuilder.build())
         }
     }
-
 
     @Provides
     @Singleton
@@ -92,8 +87,4 @@ class NetworkModule {
     fun provideApi(retrofit: Retrofit): APIs {
         return retrofit.create(APIs::class.java)
     }
-
-
-
-
 }

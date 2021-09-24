@@ -11,7 +11,6 @@ package com.example.myapplication.domain.Interactors.common
 import io.reactivex.rxjava3.disposables.CompositeDisposable
 import io.reactivex.rxjava3.disposables.Disposable
 
-
 abstract class UseCase {
 
     private var isAttached = false

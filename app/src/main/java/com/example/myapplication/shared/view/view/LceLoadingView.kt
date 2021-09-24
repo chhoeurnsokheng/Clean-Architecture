@@ -3,7 +3,9 @@ package com.icekh.ugamer.shared.lce.view
 import android.content.Context
 import android.util.AttributeSet
 import android.widget.FrameLayout
-import com.icekh.ugamer.R
+import com.example.myapplication.R
+import com.example.myapplication.shared.view.view.LceState
+
 
 @Suppress("LeakingThis")
 abstract class LceLoadingView(
@@ -31,7 +33,7 @@ abstract class LceLoadingView(
 
     init {
         layoutParams = LayoutParams(LayoutParams.MATCH_PARENT, LayoutParams.MATCH_PARENT)
-        setBackgroundResource(R.color.colorBackground)
+        setBackgroundResource(R.color.black)
         isClickable = true
     }
 

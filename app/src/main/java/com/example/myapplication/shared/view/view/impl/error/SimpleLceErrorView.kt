@@ -20,8 +20,8 @@ import com.example.myapplication.utils.extension.visible
 import com.google.android.material.button.MaterialButton
 import com.google.android.material.textview.MaterialTextView
 import com.icekh.ugamer.shared.lce.view.LceErrorView
-import com.icekh.ugamer.shared.lce.view.LceState
-import com.icekh.ugamer.shared.lce.view.LceState.ErrorState
+import com.example.myapplication.shared.view.view.LceState
+import com.example.myapplication.shared.view.view.LceState.ErrorState
 
 class SimpleLceErrorView @JvmOverloads constructor(
     context: Context,

@@ -9,4 +9,5 @@
     <dimen name="lce_description_text_size">17sp</dimen>
     <dimen name="lce_button_horizontal_space">60dp</dimen>
     <dimen name="zero_dp">0dp</dimen>
+    <dimen name="normal_loading">60dp</dimen>
 </resources>
