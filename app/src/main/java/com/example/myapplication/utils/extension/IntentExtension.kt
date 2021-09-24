@@ -6,7 +6,7 @@
  * Copyright (c) 2020 ICE Electronics. All rights reserved.
  */
 
-package com.icekh.ugamer.utils.extension
+package com.example.myapplication.utils.extension
 
 import android.content.ActivityNotFoundException
 import android.content.Context

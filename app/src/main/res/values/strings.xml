@@ -3,4 +3,7 @@
     <string name="not_available">Not available</string>
     <string name="yes">Yes</string>
     <string name="no">No</string>
+    <string name="firstName">First Name</string>
+    <string name="lastName">Last Name</string>
+    <string name="Email">Email</string>
 </resources>

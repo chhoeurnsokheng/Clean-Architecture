@@ -1,4 +1,4 @@
-package com.example.myapplication.data.mapper
+package com.example.myapplication.data.mapper.base
 
 interface Mapper<E,D> {
     fun mapFromEntity(types: E):D

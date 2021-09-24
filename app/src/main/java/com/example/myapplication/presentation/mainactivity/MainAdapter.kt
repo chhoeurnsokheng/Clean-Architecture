@@ -5,11 +5,11 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.example.myapplication.data.Entity.Movie
-import com.example.myapplication.databinding.AdapterMovieBinding
+import com.example.myapplication.databinding.ItemMovieBinding
 
 class MainAdapter : RecyclerView.Adapter<MainAdapter.MainViewHolder>() {
     var movies = mutableListOf<Movie>()
-    class MainViewHolder(val binding: AdapterMovieBinding) : RecyclerView.ViewHolder(binding.root)
+    class MainViewHolder(val binding: ItemMovieBinding) : RecyclerView.ViewHolder(binding.root)
     @JvmName("setMovies1")
     fun setMovies(movie: List<Movie>) {
         this.movies = movie.toMutableList()
@@ -27,7 +27,7 @@ class MainAdapter : RecyclerView.Adapter<MainAdapter.MainViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MainViewHolder {
         val inflater = LayoutInflater.from(parent.context)
-        val binding = AdapterMovieBinding.inflate(inflater, parent, false)
+        val binding = ItemMovieBinding.inflate(inflater, parent, false)
         return MainViewHolder(binding)
     }
 }
