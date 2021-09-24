@@ -40,7 +40,7 @@ To cache our data locally we are using Google's Room Persistance Library.
 We are also using Retrofit for network requests and Gson for parsing json responses.
 
 ## <a name=libraries></a>Third party libraries
-- [Retrofit](https://github.com/square/retrofit)
+- [Retrofit](https://square.github.io/retrofit/)
 - [Gson](https://github.com/google/gson)
 - [MockitoKotlin](https://github.com/nhaarman/mockito-kotlin)
 - [Junit4](https://junit.org/junit4/)
