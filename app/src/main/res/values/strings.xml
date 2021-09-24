@@ -6,4 +6,12 @@
     <string name="firstName">First Name</string>
     <string name="lastName">Last Name</string>
     <string name="Email">Email</string>
+    <string name="no_data">No Data</string>
+    <string name="try_again">Try again</string>
+    <string name="no_internet">No interent</string>
+    <string name="no_internet_subtitle">No internet Connect</string>
+    <string name="not_found">Not Found</string>
+    <string name="not_found_placeholder">Not Found</string>
+    <string name="something_went_wrong">Something When Wrong</string>
+    <string name="something_went_wrong_subtitle">Something When Wrong</string>
 </resources>

@@ -2,4 +2,11 @@
 <resources>
     <dimen name="normal_space">10sp</dimen>
     <dimen name="small_space">20sp</dimen>
+    <dimen name="lce_image_size">76dp</dimen>
+    <dimen name="lce_image_vertical_space">20dp</dimen>
+    <dimen name="lce_title_text_size">17sp</dimen>
+    <dimen name="lce_button_vertical_space">40dp</dimen>
+    <dimen name="lce_description_text_size">17sp</dimen>
+    <dimen name="lce_button_horizontal_space">60dp</dimen>
+    <dimen name="zero_dp">0dp</dimen>
 </resources>
